@@ -1,0 +1,14 @@
+{
+  "name": "hello-app-nodejs",
+  "version": "0.1.0",
+  "description": "nodejs tree sitter parser example app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Wallace",
+  "license": "MIT",
+  "dependencies": {
+    "tree-sitter": "^0.15.8"
+  }
+}

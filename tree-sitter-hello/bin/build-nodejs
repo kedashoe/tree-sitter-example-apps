@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+set -ex
+
+node_modules/.bin/tree-sitter generate
+node-gyp configure
+node-gyp build
+
+npm link
+

@@ -1,0 +1,14 @@
+{
+  "name": "tree-sitter-hello",
+  "version": "0.1.0",
+  "description": "an example tree sitter parser",
+  "main": "index.js",
+  "author": "Kevin Wallace",
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.14.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.15.7"
+  }
+}
