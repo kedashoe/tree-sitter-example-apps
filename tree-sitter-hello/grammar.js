@@ -7,7 +7,7 @@ module.exports = grammar({
       optional($.ident)
     ),
 
-    salutation: $ => choice('hi', 'bye'),
+    salutation: $ => choice('hi', 'hello'),
 
     ident: $ => {
       const alpha = /[a-zA-Z]/
