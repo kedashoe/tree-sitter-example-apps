@@ -2,5 +2,5 @@
 
 set -ex
 
-What goes here?
+node_modules/.bin/tree-sitter generate
 
